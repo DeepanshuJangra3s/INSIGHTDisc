@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.gifer.com/origin/55/55b7c6ff3be48eb0d83aabaaf6f8761d.gif') center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding-left: 100px; /* Adjust the value to create space for the image */
+}
+.container img {
+    border-radius: 20px; /* Adjust the border radius to curve the corners */
+    margin-right: 20px;
+}
+header {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover {
+    background-color: #555;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.discord-link {
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+}
+.discord-button {
+    display: inline-block;
+    background-color: #7289DA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.discord-button:hover {
+    background-color: #5b6eae;
+}
